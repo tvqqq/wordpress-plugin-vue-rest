@@ -27,8 +27,9 @@ class Enqueue
         // Add initial data to plugin so it can be rendered without fetch.
         $data = [
             'data' => [
-                'base_url' => home_url('/') . 'wp-json/' . Constants::HYPHEN_NAME
-            ]
+                'base_url' => esc_url_raw(rest_url(Constants::HYPHEN_NAME))
+            ],
+            'nonce' => wp_create_nonce('wp_rest')
         ];
         wp_localize_script(Constants::HYPHEN_NAME . '-js', 'WpvrJs', $data);
     }

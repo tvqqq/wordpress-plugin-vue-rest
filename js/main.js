@@ -11,6 +11,7 @@ Vue.use(VueRouter)
 
 window.axios = require('axios');
 axios.defaults.baseURL = WpvrJs.data.base_url;
+axios.defaults.headers.common['X-WP-Nonce'] = WpvrJs.nonce;
 
 // Plugin components
 import App from './App.vue'
