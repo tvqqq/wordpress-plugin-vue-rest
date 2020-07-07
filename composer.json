@@ -1,0 +1,16 @@
+{
+  "name": "tvq/wordpress-plugin-vue-rest",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Tat Vi Quyen",
+      "email": "quyen@tvqhub.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Wpvr\\": "app"
+    }
+  }
+}
