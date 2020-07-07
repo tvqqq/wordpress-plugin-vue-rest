@@ -15,7 +15,7 @@
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "css-loader": "^3.6.0",
-    "jquery": "^1.9.1",
+    "jquery": "^3.5.0",
     "sass": "^1.26.9",
     "sass-loader": "^9.0.1",
     "style-loader": "^1.2.1",
