@@ -17,7 +17,7 @@ class Routes
             // Home
             [
                 'slug' => 'home',
-                'method' => WP_REST_Server::READABLE,
+                'method' => 'GET',
                 'callback' => [new Home(), 'index']
             ],
             // ...
