@@ -6,19 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        $response = $this->getOptions();
-        return $this->ok($response);
-    }
-
-    public function store($request)
-    {
-        // Get request data
-        $data = $request['data'];
-
-        // Add option
-        update_option(self::OPTION_NAME, $data);
-
-        // Response
-        return $this->ok();
+        $random = random_int(0, 999);
+        return $this->ok("Your random number is: $random");
     }
 }

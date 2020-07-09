@@ -20,11 +20,6 @@ class Routes
                 'method' => WP_REST_Server::READABLE,
                 'callback' => [new Home(), 'index']
             ],
-            [
-                'slug' => 'home',
-                'method' => WP_REST_Server::CREATABLE,
-                'callback' => [new Home(), 'store']
-            ],
             // ...
         ];
     }
