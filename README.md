@@ -36,7 +36,7 @@ class Home extends BaseController
 
 ### Development & Deployment
 - When developing the plugin, run `npm run watch` to keep the js file updating in case any changes.
-- When completed, run `webpack -p` to minify the bundle js with the smallest size.
+- When completed, run `npm run prod` to minify the bundle js with the smallest size.
 
 ### Dependencies
 - Axios
