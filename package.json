@@ -12,7 +12,7 @@
   "author": "Tat Vi Quyen",
   "license": "ISC",
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "css-loader": "^3.6.0",
